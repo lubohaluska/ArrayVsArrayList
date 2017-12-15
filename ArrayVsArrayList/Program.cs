@@ -42,6 +42,23 @@ namespace ArrayVsArrayList
 
             Console.WriteLine("Naplneni arraylist {0}", stopky.Elapsed);
 
+            stopky.Restart();
+            Array.Sort(miliardaPole);
+            stopky.Stop();
+
+            Console.WriteLine("Sortovanie cez sort array {0}", stopky.Elapsed);
+
+
+            stopky.Restart();
+            miliardaAlist.Sort();
+            stopky.Stop();
+
+            Console.WriteLine("Sortovanie alist {0}", stopky.Elapsed);
+
+            
+
+
+
             Console.ReadLine();
         }
     }
