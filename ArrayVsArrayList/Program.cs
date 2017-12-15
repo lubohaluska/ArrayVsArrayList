@@ -12,7 +12,7 @@ namespace ArrayVsArrayList
     {
         static void Main(string[] args)
         {
-            const int miliarda = 10000000;
+            const int miliarda = 10000000;  //znizena suma, aby to rychlejsie prebehlo
             int[] miliardaPole = new int[miliarda];
             ArrayList miliardaAlist = new ArrayList();
 
@@ -54,7 +54,6 @@ namespace ArrayVsArrayList
             stopky.Stop();
 
             Console.WriteLine("Sortovanie alist {0}", stopky.Elapsed);
-
 
 
             Console.ReadLine();
