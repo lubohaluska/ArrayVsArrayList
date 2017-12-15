@@ -55,8 +55,6 @@ namespace ArrayVsArrayList
 
             Console.WriteLine("Sortovanie alist {0}", stopky.Elapsed);
 
-            
-
 
 
             Console.ReadLine();
